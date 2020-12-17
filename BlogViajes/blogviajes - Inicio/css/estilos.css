@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.site-header{
+    padding: 20px 0;  /**es para la separion que va a tener el encabezado**/
+
+
+}
+.contenedor{
+    max-width: 1200px; /**toma maximo 1200**/
+    margin: 0 auto;  /**centrar llayout**/
+}
+
+/**NAVEGACION**/
+.barra{
+    background-color: #db00db; /**cambu¿iamos el color de la barra**/
+    
+}
+.navegacion-principal a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: block; /**es para colocar los enlaces uno debajo del otro**/
+    text-align: center; /**centrar**/
+    padding: 20px; /**separacion**/
+}
+@media (min-width: 768px) {
+    .navegacion-principal a{
+        display: inline-block; /**es para colocar uno frente a otro**/
+
+    }
+}
+.navegacion-principal a:hover{
+    background-color: #00b8e4;
+}
